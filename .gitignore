@@ -1,0 +1,22 @@
+# Ignore the entire virtual environment
+spotenv/
+
+# Ignore API tokens (security reasons)
+access_token.txt
+refresh_token.txt
+
+# Ignore database files
+my_played_tracks.sqlite
+my_played_tracks_backup.csv
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore environment configuration
+pyvenv.cfg
+
