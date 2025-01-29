@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: etl_public  # Name of the schema
+    database: SPOTIFY_ETL_DATA  # Name of the database
+    schema: ETL_PUBLIC  # Name of the schema
+    tables:
+      - name: MY_PLAYED_TRACKS  # Exact table name as in Snowflake
+

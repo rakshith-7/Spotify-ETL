@@ -1,0 +1,10 @@
+version: 2
+
+models:
+  - name: artist_play_summary
+    tests:
+      - not_null:
+          column_name: artist_name
+      - unique:
+          column_name: artist_name
+
