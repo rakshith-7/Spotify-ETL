@@ -26,6 +26,15 @@ The system includes API authentication, data validation, database storage, and a
 └── README.md               # Project documentation (this file)
 
 🚀 Setup & Usage
+1️⃣ Create a Spotify Developer Account
+Once the app is created, Spotify provides API credentials:
+
+Client ID → Unique identifier for the application.
+Client Secret → Used for secure authentication.
+Redirect URI → The URL where Spotify redirects after user authentication.
+
+Store this for usage in etl_script.py file
+
 2️⃣ Set Up Virtual Environment (Why spotenv?)
 Why use spotenv?
 The spotenv virtual environment ensures that all dependencies specific to this project are installed in an isolated environment. 
