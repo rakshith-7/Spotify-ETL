@@ -82,14 +82,17 @@ Top artists and songs
 Listening trends over time
 Most active listening hours in a day
 Genre distribution of played tracks
+
 🔹 2. Scheduled ETL Execution
 Automating the ETL script to run at regular intervals using cron jobs (Linux) or Task Scheduler (Windows).
 This will ensure continuous data collection without manual execution.
+
 🔹 3. Cloud Database Integration
 Instead of storing data locally in SQLite, it can be migrated to a cloud-based data warehouse such as:
 AWS RDS (PostgreSQL/MySQL)
 Google BigQuery
 Snowflake
+
 🔹 4. Expanding Data Sources
 Fetch additional data from Spotify API, such as:
 User's liked songs
