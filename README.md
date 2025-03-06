@@ -5,6 +5,8 @@ The system includes API authentication, data validation, database storage, and a
 
 
 🚀 Setup & Usage
+
+
 1️⃣ Create a Spotify Developer Account
 Once the app is created, Spotify provides API credentials:
 
