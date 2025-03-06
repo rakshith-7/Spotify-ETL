@@ -3,27 +3,6 @@
 This project is an ETL (Extract, Transform, Load) pipeline designed to extract recently played tracks from Spotify's API, process and clean the data, and store it in a database for analysis. 
 The system includes API authentication, data validation, database storage, and a DBT project for transformations.
 
-/spotify_etl
-├── dbt_project/            # Contains DBT models and SQL transformations
-│   ├── models/             # DBT models for aggregating and transforming data
-│   ├── tests/              # Test cases to validate the transformations
-│   ├── macros/             # DBT macros for reusable SQL logic
-│   ├── seeds/              # Initial seed data for reference
-│   ├── snapshots/          # Snapshot configurations for historical tracking
-│   ├── target/             # Compiled DBT artifacts
-│   ├── dbt_project.yml     # Configuration file for DBT
-├── etl_script.py           # Main ETL script to extract, transform, and load data
-├── fetch_and_authorize.py  # Handles Spotify API authentication & token retrieval
-├── db_view.py              # Queries the SQLite database to view stored data
-├── backup.py               # Backs up SQLite database data to CSV
-├── restore.py              # Restores data from CSV backup
-├── my_played_tracks.sqlite # SQLite database storing processed Spotify data
-├── my_played_tracks_backup.csv # CSV backup of stored data
-├── refresh_token.txt       # Stores the refresh token for API authentication
-├── access_token.txt        # Stores the latest access token
-├── pyvenv.cfg              # Virtual environment configuration
-├── .gitignore              # Specifies files to exclude from version control
-└── README.md               # Project documentation (this file)
 
 🚀 Setup & Usage
 1️⃣ Create a Spotify Developer Account
