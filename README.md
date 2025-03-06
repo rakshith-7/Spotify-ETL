@@ -1,4 +1,5 @@
-🎵 Spotify ETL Pipeline
+🎵 Spotify ETL Pipeline: Automating Music Data Extraction, Transformation, and Analysis with DBT & SQL
+
 📌 Project Overview
 This project is an ETL (Extract, Transform, Load) pipeline designed to extract recently played tracks from Spotify's API, process and clean the data, and store it in a database for analysis. 
 The system includes API authentication, data validation, database storage, and a DBT project for transformations.
